@@ -45,6 +45,7 @@ names(gene_gr_ls) <- gene_gr$name
 gene_gr_wd <- unlist(gene_gr_ls)
 # add the gene name back to a column of the metadata if you prefer
 gene_gr_wd$name <- names(gene_gr_wd)
+names(gene_gr_wd) <- NULL
 
 gene_gr_wd
 
