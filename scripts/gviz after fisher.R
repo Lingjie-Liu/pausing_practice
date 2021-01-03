@@ -24,4 +24,4 @@ options(ucscChromosomeNames=FALSE)
 dtrack_plus = DataTrack(range = hs_cd14_plus, start = 450703, end = 451697, 
                          name = "hs_cd14_plus", chromosome = "1", type="h", col = 'red')
 
-plotTracks(list(axisTrack, aTrack, dtrack_minus), from = 450000, to = 460000)
+plotTracks(list(axisTrack, aTrack, dtrack_plus), from = 450000, to = 460000)
